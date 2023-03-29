@@ -8,5 +8,4 @@ class MessagesController < ApplicationController
     def msg_params
       params.require(:message).permit(:body)
     end
-    
 end
